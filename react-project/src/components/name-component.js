@@ -38,7 +38,7 @@ class Name extends React.Component {
         
         return (
             <div>
-                <h4>Player Names</h4>
+                <h4>Input Player Names</h4>
 
                 <input id="playerOne" placeholder="Player 1 Name" value={this.state.playerOneName} onChange={this.handleNameInput} />
                 <input id="playerTwo" placeholder="Player 2 Name" value={this.state.playerTwoName} onChange={this.handleNameInputTwo} />
